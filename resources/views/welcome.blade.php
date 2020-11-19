@@ -7,5 +7,8 @@
 </head>
 <body>
     <h1>Welcome File</h1>
+    <div class="links">
+        <a href="/about">About Us</a>
+    </div>
 </body>
 </html>
