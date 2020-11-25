@@ -7,7 +7,15 @@ use App\Http\Controllers\Controller;
 
 class HomeController extends Controller
 {
-    public function home(){
-        return view('home.about');
+    public function about(){
+        return view('content.about');
+    }
+
+    public function news(){
+        return view('news.news');
+    }
+
+    public function case(){
+        return view('case.case');
     }
 }

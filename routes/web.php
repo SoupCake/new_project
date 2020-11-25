@@ -19,4 +19,6 @@ Route::get('/', function () {
 });
 
 // the new Route::get('link','testController@name');
-Route::get('/about', [HomeController::class, 'home']);
+Route::get('/about', [HomeController::class, 'about']);
+Route::get('/news', [HomeController::class, 'news']);
+Route::get('/case', [HomeController::class, 'case']);
